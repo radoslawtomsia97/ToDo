@@ -33,11 +33,11 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
     <Button
-        android:id="@+id/buttonSignUp"
+        android:id="@+id/buttonSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Sign up"
+        android:text="Rejestracja"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,6 +52,19 @@
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSignUp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignIn" />
+
+    <TextView
+        android:id="@+id/textViewSignUpLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:text="Masz już konto? Zaloguj się"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResponse" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
