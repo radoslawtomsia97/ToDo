@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ToDo">
         <activity
-            android:name=".MainActivity"
+            android:name=".Rejestracja"
             android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +22,10 @@
             android:name=".SignInActivity"
             android:label="Sign In">
 
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Home Screen">
         </activity>
     </application>
 
