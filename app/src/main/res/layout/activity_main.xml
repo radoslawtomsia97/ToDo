@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/purple_200">
+
     <TextView
         android:id="@+id/textViewWelcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="10dp"
-        android:text="To Doooo List"
+        android:text="To Do List"
         android:textColor="@color/black"
         android:textSize="26dp"/>
     <EditText
@@ -35,6 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dodaj"/>
+
         <Button
             android:id="@+id/Usun"
             android:layout_width="wrap_content"

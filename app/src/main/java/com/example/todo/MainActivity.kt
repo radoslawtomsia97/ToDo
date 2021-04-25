@@ -24,8 +24,8 @@ class MainActivity : AppCompatActivity() {
         val receivedEmail = intent.getStringExtra("emailAddress")
         textViewWelcome.text="Witaj "+receivedEmail
 
-        var itemlist = arrayListOf<String>()
-        var adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice, itemlist)
+        val itemlist = arrayListOf<String>()
+        val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice, itemlist)
 
 
         Dodaj.setOnClickListener {
