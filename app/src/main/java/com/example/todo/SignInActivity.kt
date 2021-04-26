@@ -18,7 +18,7 @@ class SignInActivity : AppCompatActivity() {
         auth = Firebase.auth
         setContentView(R.layout.logowanie)
         textViewSignUpLink.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, Rejestracja::class.java)
             startActivity(intent)
         }
         buttonSignIn.setOnClickListener {

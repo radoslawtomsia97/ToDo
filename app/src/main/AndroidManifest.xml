@@ -20,7 +20,7 @@
         </activity>
         <activity
             android:name=".SignInActivity"
-            android:label="Sign In">
+            android:label="Logowanie">
 
         </activity>
         <activity
